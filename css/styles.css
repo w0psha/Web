@@ -80,3 +80,24 @@ body {
     color: #c62828;
   }
   
+  /* Image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .image-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .background-image {
+    background-image: url('../img/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
