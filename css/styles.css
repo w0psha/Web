@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('../img/photo-1700901555562-952f0008a11f.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 40px;
     min-height: 100vh;
     margin: 0;
@@ -19,6 +19,10 @@ body {
     width: 100%;
     max-width: 400px;
     backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
   
 h2 {
